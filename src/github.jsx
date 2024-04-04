@@ -4,7 +4,7 @@ import User from "./user";
 import './App.css';
 
 export default function GithubProfileFinder() {
-    const [userName, setUserName] = useState("sangammukherjee");
+    const [userName, setUserName] = useState("farzamshahid");
     const [userData, setUserData] = useState(null);
     const [loading, setLoading] = useState(true);
 
